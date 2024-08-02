@@ -172,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ys6zj8Zf3x4RniqEZVVn-351" value="&lt;font face=&quot;Helvetica&quot;&gt;export const fetch&lt;/font&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;RepositoryByIdAPI&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;()&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;export const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;fetch&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;RepositoryIdsAPI()&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ys6zj8Zf3x4RniqEZVVn-294" vertex="1">
-          <mxGeometry x="340" y="490" width="310" height="40" as="geometry" />
+          <mxGeometry x="340" y="490" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ys6zj8Zf3x4RniqEZVVn-352" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ys6zj8Zf3x4RniqEZVVn-294" target="ys6zj8Zf3x4RniqEZVVn-353" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -674,7 +674,7 @@
             <mxPoint x="860" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K3ZGRKpXhJVK3cYTuq3C-14" value="&lt;div&gt;&amp;nbsp; export const selectFamily = () =&amp;gt; state.header.family&lt;/div&gt;&lt;div&gt;&amp;nbsp; export const { toggleFamily } = headerSlice.actions&lt;/div&gt;&amp;nbsp; export default headerSlidce.reducer" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ys6zj8Zf3x4RniqEZVVn-294">
+        <mxCell id="K3ZGRKpXhJVK3cYTuq3C-14" value="&lt;div&gt;&amp;nbsp; export const selectFamily = () =&amp;gt; state.header.family;&lt;/div&gt;&lt;div&gt;&amp;nbsp; export const { toggleFamily } = headerSlice.actions;&lt;/div&gt;&amp;nbsp; export default headerSlidce.reducer;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="ys6zj8Zf3x4RniqEZVVn-294">
           <mxGeometry x="340" y="650" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K3ZGRKpXhJVK3cYTuq3C-15" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="K3ZGRKpXhJVK3cYTuq3C-16" parent="ys6zj8Zf3x4RniqEZVVn-294">
