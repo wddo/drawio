@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="26.0.10">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1930" dy="1027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1930" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="ELsMbzXoNtBKqP5es99s-56" value="packages/api-generate" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="-284" y="50" width="1152" height="988" as="geometry">
+          <mxGeometry x="-284" y="50" width="1152" height="1077" as="geometry">
             <mxRectangle x="-272" y="152" width="218" height="89" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-77" value="generate" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="298" y="416" width="81" height="40" as="geometry" />
+          <mxGeometry x="298" y="370" width="81" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-82" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-83" source="ELsMbzXoNtBKqP5es99s-63" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
@@ -52,7 +52,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-83" value="handler" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="298" y="466" width="81" height="40" as="geometry" />
+          <mxGeometry x="298" y="420" width="81" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-84" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-85" source="ELsMbzXoNtBKqP5es99s-75" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-96" value="generate" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=center;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="413" y="416" width="144" height="40" as="geometry" />
+          <mxGeometry x="413" y="370" width="144" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-115" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-112" target="ELsMbzXoNtBKqP5es99s-58">
           <mxGeometry relative="1" as="geometry" />
@@ -119,20 +119,35 @@
             <mxPoint x="75" y="158" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-177" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;fontFamily=Helvetica;fontSize=12;fontColor=#333333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-125" target="ELsMbzXoNtBKqP5es99s-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1141" y="709" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-125" value="&quot;gen:display&quot; :&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;SERVICE=display ENDPOINT=./client/endpoint/display.json&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;node ./script/generate-client.js&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;..&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&quot;gen:display:server&quot; :&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;SERVICE=display ENDPOINT=./server/endpoint/display.json&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;node ./script/generate-server.js&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=left;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=10;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry x="518" y="53.25" width="548" height="109.5" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-136" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-133" target="ELsMbzXoNtBKqP5es99s-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-172" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-133" target="ELsMbzXoNtBKqP5es99s-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-133" value="script" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="76" y="536" width="75" height="40" as="geometry" />
+          <mxGeometry x="77" y="555" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-137" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" source="ELsMbzXoNtBKqP5es99s-133" target="ELsMbzXoNtBKqP5es99s-138" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-138" value="server" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="188" y="536" width="75" height="40" as="geometry" />
+          <mxGeometry x="189" y="555" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-139" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-140" source="ELsMbzXoNtBKqP5es99s-133" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
@@ -140,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-140" value="client" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="188" y="586" width="75" height="40" as="geometry" />
+          <mxGeometry x="188" y="634" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-141" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-142" source="ELsMbzXoNtBKqP5es99s-140" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
@@ -148,7 +163,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-142" value="endpont" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="303" y="586" width="107" height="40" as="geometry" />
+          <mxGeometry x="303" y="634" width="107" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-143" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-144" source="ELsMbzXoNtBKqP5es99s-140" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
@@ -156,38 +171,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-144" value="filtered-openapi" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="303" y="636" width="107" height="40" as="geometry" />
+          <mxGeometry x="303" y="684" width="107" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-146" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-147" source="ELsMbzXoNtBKqP5es99s-133" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-133" y="606" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-147" value="generate-server.js&lt;div&gt;generateFn({ service, endpoint .. });&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry x="329" y="818" width="222" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-147" value="generate-server.js&lt;div&gt;generateFn({..});&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="188" y="692" width="107" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-148" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-149" source="ELsMbzXoNtBKqP5es99s-133" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-133" y="606" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-155" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-149" target="ELsMbzXoNtBKqP5es99s-151">
+        <mxCell id="ELsMbzXoNtBKqP5es99s-174" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-149" target="ELsMbzXoNtBKqP5es99s-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-149" value="generate-client.js&lt;div&gt;generateFn(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;{..}&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;);&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="188" y="742" width="107" height="40" as="geometry" />
+        <mxCell id="ELsMbzXoNtBKqP5es99s-149" value="generate-client.js&lt;div&gt;generateFn({ service, endpoint .. });&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry x="329" y="871" width="222" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-153" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-151" target="ELsMbzXoNtBKqP5es99s-152">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-154" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-151" target="ELsMbzXoNtBKqP5es99s-147">
+        <mxCell id="ELsMbzXoNtBKqP5es99s-173" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-151" target="ELsMbzXoNtBKqP5es99s-147">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-151" value="generateFn.js" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="357" y="715" width="107" height="40" as="geometry" />
+          <mxGeometry x="189" y="818" width="107" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-152" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;module.exports.generateFn = () =&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; axios.get(path).then(() =&amp;gt; { .. }); // 넷상 open-api 스펙 json 파일 로드&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; const filteredData = { .. } // open-api 형태로 필터링 및 형식 가공&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; fs.writeFileSync(.., JSON.stringify(&lt;/span&gt;filteredData&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;), null, 2)) // open-api 형태의 json 파일로 생성&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; exec(&quot;pnpx @openapi-generator-cli generate -i .. -g .. -o .. --skip-validate-spec&quot;) // generate 실행&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=left;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=9;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="336" y="846" width="658" height="104" as="geometry" />
+          <mxGeometry x="194" y="938" width="545" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-161" value="[&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;/api/~/common&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;, &quot;/api/~/gnb&quot;, .. ]&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=left;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=10;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry x="607" y="586" width="204" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-163" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-164" source="ELsMbzXoNtBKqP5es99s-142" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-21" y="656" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-167" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-164" target="ELsMbzXoNtBKqP5es99s-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-164" value="common.json" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry x="465" y="584" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-165" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-166" source="ELsMbzXoNtBKqP5es99s-142" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="126" y="656" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-169" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-166" target="ELsMbzXoNtBKqP5es99s-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-166" value="display.json" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry x="465" y="634" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-180" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;fontFamily=Helvetica;fontSize=12;fontColor=#333333;dashed=1;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-168">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-168" value="[&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;/api/~/display&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;, &quot;/api/~/home&quot;, .. ]&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=left;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=10;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
+          <mxGeometry x="609" y="636" width="204" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ELsMbzXoNtBKqP5es99s-176" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.085;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;" edge="1" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-151" target="ELsMbzXoNtBKqP5es99s-152">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
