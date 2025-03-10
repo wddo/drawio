@@ -5,7 +5,7 @@
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="ELsMbzXoNtBKqP5es99s-56" value="packages/api-generate" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
-          <mxGeometry x="-284" y="50" width="1379" height="839" as="geometry">
+          <mxGeometry x="-284" y="50" width="1152" height="839" as="geometry">
             <mxRectangle x="-272" y="152" width="218" height="89" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -76,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-90" value="index.ts" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="518" y="316" width="120" height="40" as="geometry" />
+          <mxGeometry x="518" y="316" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-91" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-92" source="ELsMbzXoNtBKqP5es99s-90" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
@@ -84,7 +84,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-92" value="/generate 생성된 fetch 함수 랩핑 함수들 정의&lt;div&gt;( 실제 화면에서 호출할 fetch 함수 )&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=center;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=9;" vertex="1" parent="ELsMbzXoNtBKqP5es99s-56">
-          <mxGeometry x="655" y="304" width="276" height="64" as="geometry" />
+          <mxGeometry x="636" y="304" width="276" height="64" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-95" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" edge="1" target="ELsMbzXoNtBKqP5es99s-96" source="ELsMbzXoNtBKqP5es99s-77" parent="ELsMbzXoNtBKqP5es99s-56">
           <mxGeometry relative="1" as="geometry">
