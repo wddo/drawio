@@ -83,7 +83,7 @@
             <mxPoint x="260" y="488" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-92" value="/generate 생성된 fetch 함수 랩핑 함수들 정의&lt;div&gt;( 실제 화면에서 호출할 fetch 함수 )&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=center;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=9;" parent="ELsMbzXoNtBKqP5es99s-56" vertex="1">
+        <mxCell id="ELsMbzXoNtBKqP5es99s-92" value="/generate 생성된 fetch 함수를 랩핑한 함수들&lt;div&gt;( 실제 화면에서 호출할 fetch 함수 )&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=center;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=9;" parent="ELsMbzXoNtBKqP5es99s-56" vertex="1">
           <mxGeometry x="636" y="338" width="276" height="64" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-115" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-112" target="ELsMbzXoNtBKqP5es99s-58" edge="1">
@@ -225,7 +225,7 @@
         <mxCell id="ELsMbzXoNtBKqP5es99s-187" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=3;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-185" target="ELsMbzXoNtBKqP5es99s-144" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="813" y="743" />
+              <mxPoint x="848" y="745" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -235,14 +235,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-185" value="&lt;div&gt;const service = process.env.SERVICE&lt;/div&gt;&lt;div&gt;const prefixList= require(process.env.ENDPOINT)&lt;/div&gt;&lt;div&gt;const filtered = &quot;./script/~/filtered-openapi/&quot; + SERVICE+&quot;.json&quot;&lt;/div&gt;&lt;div&gt;const output = &quot;./src/~/generate/&quot; + SERVICE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;generateFn({ service, prefixList, filtered&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, output,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.. })&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=left;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=10;" parent="ELsMbzXoNtBKqP5es99s-56" vertex="1">
-          <mxGeometry x="634" y="788" width="357" height="100" as="geometry" />
+          <mxGeometry x="669" y="788" width="357" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-189" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeWidth=3;endFill=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-185" target="ELsMbzXoNtBKqP5es99s-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="916" y="733" as="sourcePoint" />
             <mxPoint x="401" y="391" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="902" y="588" />
+              <mxPoint x="937" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -264,8 +264,8 @@
             <mxPoint x="95" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ELsMbzXoNtBKqP5es99s-196" value="export const $api // generate 함수를 공통&amp;nbsp;config 적용한 래핑 함수&lt;div&gt;export const $axios //&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=center;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=9;" parent="ELsMbzXoNtBKqP5es99s-56" vertex="1">
-          <mxGeometry x="518" y="454" width="370" height="40" as="geometry" />
+        <mxCell id="ELsMbzXoNtBKqP5es99s-196" value="export const $api // generate 함수를 공통&amp;nbsp;config 적용한 래핑 함수&lt;div&gt;export const $axios // $axios.create() 반환 함수&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};align=center;verticalAlign=middle;shadow=1;strokeColor=none;labelBorderColor=none;rounded=1;glass=0;spacing=9;" parent="ELsMbzXoNtBKqP5es99s-56" vertex="1">
+          <mxGeometry x="518" y="454" width="394" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ELsMbzXoNtBKqP5es99s-197" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ELsMbzXoNtBKqP5es99s-56" source="ELsMbzXoNtBKqP5es99s-59" target="ELsMbzXoNtBKqP5es99s-198" edge="1">
           <mxGeometry relative="1" as="geometry">
