@@ -171,8 +171,8 @@
             <mxPoint x="1390" y="810" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ys6zj8Zf3x4RniqEZVVn-351" value="&lt;font face=&quot;Helvetica&quot;&gt;fetchRepositories()&lt;br&gt;&lt;/font&gt;deleteRepositoryById(id)&lt;font face=&quot;Helvetica&quot;&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ys6zj8Zf3x4RniqEZVVn-294" vertex="1">
-          <mxGeometry x="520" y="490" width="140" height="40" as="geometry" />
+        <mxCell id="ys6zj8Zf3x4RniqEZVVn-351" value="fetchRepositoriesApi&lt;font face=&quot;Helvetica&quot;&gt;()&lt;br&gt;&lt;/font&gt;deleteRepositoryByIdApi(id)&lt;font face=&quot;Helvetica&quot;&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ys6zj8Zf3x4RniqEZVVn-294" vertex="1">
+          <mxGeometry x="500" y="490" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ys6zj8Zf3x4RniqEZVVn-352" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ys6zj8Zf3x4RniqEZVVn-294" source="ys6zj8Zf3x4RniqEZVVn-296" target="ys6zj8Zf3x4RniqEZVVn-353" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -770,8 +770,8 @@
             <mxPoint x="900" y="840" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="32A6vIrI1nPomE8Sgxn--2" value="fetchData()&lt;div&gt;deleteRepository(id)&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ys6zj8Zf3x4RniqEZVVn-294">
-          <mxGeometry x="520" y="580" width="140" height="40" as="geometry" />
+        <mxCell id="32A6vIrI1nPomE8Sgxn--2" value="fetchRepositories()&lt;div&gt;deleteRepository(id)&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ys6zj8Zf3x4RniqEZVVn-294">
+          <mxGeometry x="500" y="580" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="32A6vIrI1nPomE8Sgxn--5" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=oval;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endFill=1;dashed=1;strokeWidth=2;" edge="1" parent="ys6zj8Zf3x4RniqEZVVn-294" source="ys6zj8Zf3x4RniqEZVVn-351" target="32A6vIrI1nPomE8Sgxn--2">
           <mxGeometry relative="1" as="geometry" />
