@@ -771,7 +771,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="32A6vIrI1nPomE8Sgxn--2" value="fetchRepositories()&lt;div&gt;deleteRepository(id)&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ys6zj8Zf3x4RniqEZVVn-294">
-          <mxGeometry x="500" y="580" width="180" height="40" as="geometry" />
+          <mxGeometry x="520" y="580" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="32A6vIrI1nPomE8Sgxn--5" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=oval;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endFill=1;dashed=1;strokeWidth=2;" edge="1" parent="ys6zj8Zf3x4RniqEZVVn-294" source="ys6zj8Zf3x4RniqEZVVn-351" target="32A6vIrI1nPomE8Sgxn--2">
           <mxGeometry relative="1" as="geometry" />
