@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1905" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2305" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,6 +202,34 @@
             <mxPoint x="1405" y="-230" as="sourcePoint" />
             <mxPoint x="1370" y="-230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-3" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;Kakao.API.request({&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;url: &quot;/v2/user/me&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;})&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-4" target="zWfT_tvb-KAYON9pEk9O-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-4" value="fetch(&quot;https://kauth.kakao.com/oauth/token&quot;,&amp;nbsp;&lt;br&gt;{ body: { client_id : REST_API_KEY } })" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-7" value="axios({ url: &quot;https://kauth.kakao.com/oauth/token&quot;, &lt;br&gt;data: {&amp;nbsp;refresh_token } })" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.709;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-7" target="zWfT_tvb-KAYON9pEk9O-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-9" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;Kakao.API.request({ url : &quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;/v1/user/update_profile&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;})&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-9" target="zWfT_tvb-KAYON9pEk9O-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
