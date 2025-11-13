@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2305" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zWfT_tvb-KAYON9pEk9O-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="zWfT_tvb-KAYON9pEk9O-1" target="zWfT_tvb-KAYON9pEk9O-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-1" value="마이페이지" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="-120" width="100" height="80" as="geometry" />
+        <mxCell id="zWfT_tvb-KAYON9pEk9O-1" value="&lt;span style=&quot;font-family: Verdana; text-wrap-mode: nowrap;&quot;&gt;AuthComponent HOF&lt;br&gt;&lt;/span&gt;pages/mypage" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1015" y="-120" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="zWfT_tvb-KAYON9pEk9O-2" target="zWfT_tvb-KAYON9pEk9O-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -16,7 +16,7 @@
         <mxCell id="zWfT_tvb-KAYON9pEk9O-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;endArrow=classic;endFill=1;" parent="1" source="zWfT_tvb-KAYON9pEk9O-46" target="zWfT_tvb-KAYON9pEk9O-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-2" value="스토리지 user" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="zWfT_tvb-KAYON9pEk9O-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;localStorage&amp;nbsp;&lt;/span&gt;user" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="-10" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zWfT_tvb-KAYON9pEk9O-3" target="XhDcDlEllK1SPGjwR8y1-1" edge="1">
@@ -24,26 +24,12 @@
             <mxPoint x="1430" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-89" value="API 의한 redirect&amp;nbsp;&lt;br&gt;(Kakao.Auth.authorize)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zWfT_tvb-KAYON9pEk9O-8" connectable="0" vertex="1">
-          <mxGeometry x="-0.2727" y="2" relative="1" as="geometry">
-            <mxPoint x="21" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-3" value="authorize() 호출&lt;br&gt;스토리지 -&lt;br&gt;돌아올 위치 저장" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1170" width="120" height="60" as="geometry" />
+        <mxCell id="zWfT_tvb-KAYON9pEk9O-3" value="authorize() 호출" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XhDcDlEllK1SPGjwR8y1-1" target="zWfT_tvb-KAYON9pEk9O-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1510" y="60" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="XhDcDlEllK1SPGjwR8y1-1" target="zWfT_tvb-KAYON9pEk9O-108" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1510" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1535" y="-90" />
-              <mxPoint x="1535" y="-90" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="zWfT_tvb-KAYON9pEk9O-9" target="zWfT_tvb-KAYON9pEk9O-35" edge="1">
@@ -62,7 +48,7 @@
             <mxPoint x="-21" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-9" value="스토리지 user" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="zWfT_tvb-KAYON9pEk9O-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;localStorage&amp;nbsp;&lt;/span&gt;user" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1475" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.65;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="zWfT_tvb-KAYON9pEk9O-35" target="zWfT_tvb-KAYON9pEk9O-46" edge="1">
@@ -112,11 +98,11 @@
         <mxCell id="zWfT_tvb-KAYON9pEk9O-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="zWfT_tvb-KAYON9pEk9O-52" target="zWfT_tvb-KAYON9pEk9O-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-52" value="logout 호출&lt;br&gt;스토리지 user 제거" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zWfT_tvb-KAYON9pEk9O-52" value="logout 호출&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;localStorage&lt;/span&gt;user 제거" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1850" y="-110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-54" value="useUser" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="420" y="20" width="280" height="180" as="geometry">
+          <mxGeometry x="420" y="-110" width="280" height="180" as="geometry">
             <mxRectangle x="50" y="160" width="280" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -132,13 +118,16 @@
         <mxCell id="zWfT_tvb-KAYON9pEk9O-58" value="user ? localStorage.setItem() : &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;localStorage.removeItem()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zWfT_tvb-KAYON9pEk9O-54" vertex="1">
           <mxGeometry y="140" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="zWfT_tvb-KAYON9pEk9O-59" target="zPy7K7Ut8xMmYn04ai8F-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-59" value="useAuth" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="740" y="80" width="240" height="370" as="geometry">
+          <mxGeometry x="740" y="-50" width="250" height="370" as="geometry">
             <mxRectangle x="50" y="160" width="280" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-64" value="&lt;div&gt;const { user, .. } = useUser()&lt;/div&gt;code = searchParams.get(&quot;code&quot;)&lt;br&gt;&lt;br&gt;authorize()&lt;br&gt;&lt;font color=&quot;#cccccc&quot;&gt;&amp;nbsp;- KaKao.Auth.authorize()&lt;br&gt;&lt;/font&gt;login(code)&lt;br&gt;&amp;nbsp;- getAccessData(code) &amp;gt; setUserState()&lt;br&gt;logout()&lt;br&gt;&amp;nbsp;- removeUser()&lt;br&gt;refresh()&lt;br&gt;&lt;br&gt;getAccessData(code)&lt;br&gt;&amp;nbsp;- fetchAccessToken(code): tokenData&lt;br&gt;&lt;font color=&quot;#cccccc&quot;&gt;&amp;nbsp;- Kakao.Auth.setAccessToken(token)&lt;br&gt;&lt;/font&gt;&amp;nbsp;- fetchUser(): userData&lt;br&gt;&lt;br&gt;getRefreshData(token): tokenData&lt;br&gt;&amp;nbsp;- fetchRefreshToken(token): tokenData&lt;br&gt;&lt;font color=&quot;#cccccc&quot;&gt;&amp;nbsp;- Kakao.Auth.setAccessToken(token)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;br&gt;getUpdateUserData(req): userData&lt;br&gt;&amp;nbsp;- fetchUpdateUser(req)&lt;br&gt;&amp;nbsp;- fetchUser(): userData" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zWfT_tvb-KAYON9pEk9O-59" vertex="1">
-          <mxGeometry y="26" width="240" height="344" as="geometry" />
+          <mxGeometry y="26" width="250" height="344" as="geometry" />
         </mxCell>
         <mxCell id="zWfT_tvb-KAYON9pEk9O-66" value="root" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1681" y="410" width="100" height="80" as="geometry" />
@@ -155,81 +144,78 @@
             <mxPoint x="1731" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-102" value="pages/auth.tsx" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="1430" y="-200" width="210" height="120" as="geometry">
-            <mxRectangle x="50" y="160" width="280" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-104" value="effect : [code]" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zWfT_tvb-KAYON9pEk9O-102" vertex="1">
-          <mxGeometry y="26" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-105" value="!user ? login(code)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zWfT_tvb-KAYON9pEk9O-102" vertex="1">
-          <mxGeometry y="56" width="210" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-108" value="redirect&amp;nbsp; ? navigate(&quot;/&quot;) :&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;navigate(redirect)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zWfT_tvb-KAYON9pEk9O-102" vertex="1">
-          <mxGeometry y="80" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zWfT_tvb-KAYON9pEk9O-117" value="searchParams.get(&quot;code&quot;)" style="text;html=1;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="-174" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="rqyw6X5OYFbQectJvnGi-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Methods Naming Convention&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;[user, setUser]&lt;br&gt;setUser&lt;font color=&quot;#0000ff&quot;&gt;State&lt;/font&gt;(() =&amp;gt; { setUser(...) }) &lt;font color=&quot;#009900&quot;&gt;// 편하게 사용할 목적의 setUser 랩핑 함수&lt;/font&gt;&lt;br&gt;updateUser&lt;br&gt;removeUser&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;get&lt;/font&gt;Access&lt;font color=&quot;#0000ff&quot;&gt;Data&lt;/font&gt; &lt;font color=&quot;#009900&quot;&gt;// fetch 묶음&lt;/font&gt;&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;fetch&lt;/font&gt;AccessToken&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;fetch&lt;/font&gt;User&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;get&lt;/font&gt;UpdateUser&lt;font color=&quot;#3333ff&quot;&gt;Data&lt;/font&gt;&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;fetch&lt;/font&gt;UpdateUser&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;fetch&lt;/font&gt;User&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=0;verticalAlign=top;align=left;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=Courier New;spacing=2;horizontal=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-340" width="350" height="220" as="geometry" />
+          <mxGeometry x="420" y="-350" width="350" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="zPy7K7Ut8xMmYn04ai8F-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rqyw6X5OYFbQectJvnGi-2" target="zWfT_tvb-KAYON9pEk9O-59">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rqyw6X5OYFbQectJvnGi-2" value="app.tsx" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="735" y="-40" width="250" height="50" as="geometry">
+        <mxCell id="rqyw6X5OYFbQectJvnGi-2" value="/app.tsx" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="740" y="-130" width="250" height="50" as="geometry">
             <mxRectangle x="50" y="160" width="280" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rqyw6X5OYFbQectJvnGi-3" value="AuthContext.Provider&amp;nbsp;&amp;nbsp;value={useAuth()}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rqyw6X5OYFbQectJvnGi-2" vertex="1">
+        <mxCell id="rqyw6X5OYFbQectJvnGi-3" value="&amp;lt;AuthContext.Provider&amp;nbsp;&amp;nbsp;value={useAuth()}&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rqyw6X5OYFbQectJvnGi-2" vertex="1">
           <mxGeometry y="26" width="250" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="XhDcDlEllK1SPGjwR8y1-1" value="빈 페이지&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-weight: bold;&quot;&gt;&lt;u&gt;새로고침 접근 시 code 확인&lt;/u&gt;&lt;br&gt;login(code) 호출&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="XhDcDlEllK1SPGjwR8y1-1" value="&lt;span style=&quot;font-family: Verdana; text-wrap-mode: nowrap;&quot;&gt;pages/auth.tsx&lt;br&gt;&lt;/span&gt;빈 페이지&lt;br style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51); font-weight: bold;&quot;&gt;&lt;u&gt;새로고침 접근 시 code 확인&lt;/u&gt;&lt;br&gt;login(code) 호출&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1450" y="-10" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XhDcDlEllK1SPGjwR8y1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1429" y="-160" as="sourcePoint" />
-            <mxPoint x="1370" y="-160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-3" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;Kakao.API.request({&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;url: &quot;/v2/user/me&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;})&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440" y="290" width="260" height="30" as="geometry" />
+          <mxGeometry x="440" y="160" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-4" target="zWfT_tvb-KAYON9pEk9O-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-4" value="fetch(&quot;https://kauth.kakao.com/oauth/token&quot;,&amp;nbsp;&lt;br&gt;{ body: { client_id : REST_API_KEY } })" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440" y="220" width="260" height="50" as="geometry" />
+          <mxGeometry x="440" y="90" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-3" target="zWfT_tvb-KAYON9pEk9O-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="307" as="targetPoint" />
+            <mxPoint x="740" y="177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-7" value="axios({ url: &quot;https://kauth.kakao.com/oauth/token&quot;, &lt;br&gt;data: {&amp;nbsp;refresh_token } })" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="380" y="360" width="320" height="50" as="geometry" />
+          <mxGeometry x="380" y="230" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=-0.002;entryY=0.756;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-7" target="zWfT_tvb-KAYON9pEk9O-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="370" as="targetPoint" />
+            <mxPoint x="730" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-9" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;Kakao.API.request({ url : &quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;/v1/user/update_profile&quot;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;data })&lt;/span&gt;" style="whiteSpace=wrap;html=1;treeFolding=0;treeMoving=0;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="350" y="430" width="350" height="30" as="geometry" />
+          <mxGeometry x="350" y="300" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.924;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPy7K7Ut8xMmYn04ai8F-9" target="zWfT_tvb-KAYON9pEk9O-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="436.97" as="sourcePoint" />
-            <mxPoint x="740" y="410.00199999999995" as="targetPoint" />
+            <mxPoint x="700" y="306.97" as="sourcePoint" />
+            <mxPoint x="740" y="280.00199999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zPy7K7Ut8xMmYn04ai8F-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zWfT_tvb-KAYON9pEk9O-56">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="73" as="sourcePoint" />
-            <mxPoint x="740" y="120" as="targetPoint" />
+            <mxPoint x="700" y="-57" as="sourcePoint" />
+            <mxPoint x="740" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-17" value="/pages/auth.tsx" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="740" y="370" width="250" height="120" as="geometry">
+            <mxRectangle x="50" y="160" width="280" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-18" value="effect : [code]" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPy7K7Ut8xMmYn04ai8F-17">
+          <mxGeometry y="26" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-19" value="!user ? login(code)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPy7K7Ut8xMmYn04ai8F-17">
+          <mxGeometry y="56" width="250" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-20" value="redirect&amp;nbsp; ? navigate(&quot;/&quot;) :&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;navigate(redirect)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPy7K7Ut8xMmYn04ai8F-17">
+          <mxGeometry y="80" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-21" value="searchParams.get(&quot;code&quot;)" style="text;html=1;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="530" y="396" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPy7K7Ut8xMmYn04ai8F-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="739" y="410" as="sourcePoint" />
+            <mxPoint x="680" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
