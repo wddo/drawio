@@ -134,7 +134,7 @@
             <mxPoint x="60" y="800" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ys6zj8Zf3x4RniqEZVVn-323" value="pages&lt;div&gt;&lt;i&gt;(views)&lt;/i&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="ys6zj8Zf3x4RniqEZVVn-294" vertex="1">
+        <mxCell id="ys6zj8Zf3x4RniqEZVVn-323" value="pages&lt;div&gt;&lt;i&gt;(app)&lt;/i&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fontFamily=Tahoma;fontSize=12;startSize=40;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="ys6zj8Zf3x4RniqEZVVn-294" vertex="1">
           <mxGeometry x="100" y="510" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ys6zj8Zf3x4RniqEZVVn-324" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;startArrow=none;endArrow=none;" parent="ys6zj8Zf3x4RniqEZVVn-294" source="ys6zj8Zf3x4RniqEZVVn-323" target="ys6zj8Zf3x4RniqEZVVn-325" edge="1">
